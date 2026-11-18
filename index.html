@@ -69,10 +69,10 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem}
 
 <article class="card">
   <h3>Career Suite: tools that keep AI-written CVs honest</h3>
-  <p class="meta">Side project · TypeScript, React, Node · built with coding agents · in daily use for my own job search · 2026</p>
+  <p class="meta">Side project · TypeScript, React, Node · built with coding agents · replacing the tools I use for my own job search · 2026</p>
   <ul>
-    <li>A suite of career apps built around one rule: <b>facts are strict, wording is flexible.</b> Every claim lives once in an evidence bank, and anything an LLM writes from it has to match those facts.</li>
-    <li>A bank checker flags wording that adds a number the fact doesn't contain, or uses a stronger verb than the fact supports, so AI drafts can be trusted without rereading every line.</li>
+    <li>A suite of career apps built around one rule: <b>facts are strict, wording is flexible.</b> Every career fact lives once in an evidence bank, and every CV wording has to match the fact it comes from.</li>
+    <li>A bank checker flags wording that adds a number the fact doesn't contain or uses a stronger verb than the fact supports, so AI-written text can't quietly overstate anything.</li>
     <li>Monorepo with a shared data package (Zod schemas, which also generate JSON Schema for other languages), a shared React UI kit, and a home screen with a small JSON API that starts, stops and monitors every tool.</li>
     <li>Privacy by design: personal data lives in a separate private repo, so the code can be public.</li>
   </ul>
@@ -84,9 +84,8 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem}
   <h3>AI-assisted engineering, with human checks where they matter</h3>
   <p class="meta">VOYA Games · Technical Lead · 2024 to present</p>
   <ul>
-    <li>Introduced an AI-assisted workflow from specification to release for my team, using coding agents (Cursor, Codex, Claude), MCP and custom agent skills.</li>
+    <li>Promoted an AI-assisted workflow from specification to release across the team: directing coding agents, reviewing their output, and turning lessons into team guardrails.</li>
     <li><b>Caught an agent-written database migration that would have broken live game clients.</b> Replaced it with a safe step-by-step rollout and added the rule to our <code>AGENTS.md</code>, so neither the agents nor the team repeat the mistake.</li>
-    <li>What I took from it: agents are fast at the routine work, and the real engineering is knowing where a human has to check.</li>
   </ul>
   <div class="chips"><span class="chip">Coding agents</span><span class="chip">MCP</span><span class="chip">Agent skills</span><span class="chip">Code review</span></div>
 </article>
@@ -95,16 +94,16 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem}
   <h3>One simulation, two runtimes: Unity client and TypeScript/Node backend</h3>
   <p class="meta">Craft World · VOYA Games · live on iOS, Android and web · ~80k monthly players</p>
   <ul>
-    <li>Designed a shared C# production simulation that runs identically on the client and the server. It ships as a Unity package and runs on the backend through a Node API that executes C#/.NET.</li>
-    <li>Built client–server sync with optimistic updates, so players never wait on the server.</li>
-    <li>Own releases end to end, including four engine upgrades and SDK upgrades on a live product.</li>
+    <li>Designed a shared C# production simulation that is shared by the Unity client and the TypeScript backend. It ships as a Unity package and runs on the backend through a Node API that executes C#/.NET.</li>
+    <li>Built client–server sync with optimistic updates, so players don't wait on server responses.</li>
+    <li>Responsible for four Unity upgrades on the live game, and for evaluating and upgrading Firebase, AppLovin, IAP and Addressables.</li>
   </ul>
   <div class="stats">
     <div class="stat"><b>2.56% → 0.22%</b><span>crash rate</span></div>
-    <div class="stat"><b>1.3 GB → 750 MB</b><span>memory use</span></div>
-    <div class="stat"><b>30 / 60 FPS</b><span>stable on low / high-end devices</span></div>
+    <div class="stat"><b>~1.3 GB → ~750 MB</b><span>memory use</span></div>
+    <div class="stat"><b>30 / 60 FPS</b><span>stable on low-end / mid and high-end devices in the heaviest area</span></div>
   </div>
-  <div class="chips"><span class="chip">TypeScript</span><span class="chip">Node.js</span><span class="chip">C# / .NET</span><span class="chip">CI/CD: GitHub Actions</span><span class="chip">Staged releases</span></div>
+  <div class="chips"><span class="chip">TypeScript</span><span class="chip">Node.js</span><span class="chip">C# / .NET</span><span class="chip">Unity</span></div>
   <p><a href="https://www.angrydynomiteslab.com/craft-world/">Craft World</a></p>
 </article>
 
@@ -113,8 +112,8 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem}
   <p class="meta">Unity Technologies and VOYA Games</p>
   <ul>
     <li><b>Remote Developer Panel</b>: a public Unity package for controlling development builds on connected devices from a desktop.</li>
-    <li><b>Runtime Bots School</b>: a framework and training that lets every developer on the team write bots to test their own features.</li>
-    <li><b>Sprite-baking editor tool</b>: turns thousands of scene sprites into optimised textures, cutting GPU load and device heat.</li>
+    <li><b>Runtime Bots School</b>: lets developers on the team create runtime bots that test their own features.</li>
+    <li><b>Sprite-baking editor tool</b>: bakes jungle tree sprites into optimised runtime textures, reducing GPU load and device heat.</li>
   </ul>
   <div class="chips"><span class="chip">Developer tooling</span><span class="chip">Testing</span><span class="chip">Automation</span></div>
 </article>
@@ -123,26 +122,26 @@ footer{margin-top:56px;color:var(--muted);font-size:.85rem}
   <h3>Operator tools in React and Node</h3>
   <p class="meta">Volkswagen Group Future Center Europe · 2018 to 2020</p>
   <ul>
-    <li>Built React/Node operator tools and VR prototypes in a design-thinking lab, working directly with designers and researchers rather than other engineers.</li>
+    <li>Built React/Node operator tools, Unity/C# VR prototypes and mobility projects in a design-thinking lab.</li>
   </ul>
   <div class="chips"><span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Prototyping</span></div>
 </article>
 
 <article class="card">
-  <h3>Consulting: start from the real problem</h3>
+  <h3>Consulting: 21 engagements across industries</h3>
   <p class="meta">Unity Technologies · Senior Software Development Consultant · 2020 to 2024</p>
   <ul>
-    <li>21 engagements across games, automotive, simulation and enterprise, each starting from the customer's actual problem.</li>
+    <li>21 engagements across games, automotive, simulation and enterprise: project reviews, architecture reviews, embedded engineering and pre-sales evaluations.</li>
     <li>Cut startup-to-first-interaction from <b>over 5 minutes to under 10 seconds</b>.</li>
-    <li>Taught customer engineers the tools and methods so they could carry on without me.</li>
+    <li>Ran live profiling and debugging sessions, and taught the tools and methods so customer engineers could continue independently.</li>
   </ul>
 </article>
 
 <article class="card">
   <h3>This website</h3>
-  <p class="meta">Built with coding agents · deployed by GitHub Actions</p>
+  <p class="meta">Built with coding agents · hosted on GitHub Pages</p>
   <ul>
-    <li>Planned, written and built together with an AI agent, reviewed by me, and deployed automatically on every push.</li>
+    <li>Planned, written and built together with an AI agent, reviewed by me, and published with GitHub Pages.</li>
   </ul>
   <p><a href="https://github.com/i3ur/i3ur.github.io">Source on GitHub</a></p>
 </article>
